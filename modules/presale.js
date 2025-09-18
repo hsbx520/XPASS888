@@ -103,7 +103,7 @@ if (howDlg) {
       <div class="ts-row"><span><strong>💱 Current Exchange Rates</strong></span></div>
       <ul>
         <li>1 ETH = 585,000 XPASS (Min: 0.05 ETH)</li>
-        <li>1 BNB = 115,000 XPASS (Min: 0.3 BNB)</li>
+        <li>1 BNB = 130,000 XPASS (Min: 0.3 BNB)</li>
         <li>1 USDT = 125 XPASS (Min: 200 USDT)</li>
         <li>1 USDC = 125 XPASS (Min: 200 USDC)</li>
         <li>1 SOL = 27,000 XPASS (Min: 1 SOL)</li>
