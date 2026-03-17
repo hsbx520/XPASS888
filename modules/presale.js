@@ -102,11 +102,11 @@ document.getElementById("copyPresaleAddr")?.addEventListener("click", async () =
 });
 
 document.getElementById("coinbaseBtn")?.addEventListener("click", () => {
-  window.open("https://commerce.coinbase.com/checkout/e6167178-9c68-480e-b1a2-01faa776d914", "_blank", "noopener");
+  window.open("https://commerce.coinbase.com/checkout/2bcd03f1-4366-43f2-b15d-25de13dc2f1a", "_blank", "noopener");
 });
 
 document.getElementById("coinbaseCta")?.addEventListener("click", () => {
-  window.open("https://commerce.coinbase.com/checkout/e6167178-9c68-480e-b1a2-01faa776d914", "_blank", "noopener");
+  window.open("https://commerce.coinbase.com/checkout/2bcd03f1-4366-43f2-b15d-25de13dc2f1a", "_blank", "noopener");
 });
 
 const howDlg = document.querySelector('#modalHow .modal__dialog');
@@ -147,11 +147,11 @@ if (howDlg) {
     <div class="ts-card">
       <div class="ts-row"><span><strong>💱 Current Exchange Rates</strong></span></div>
       <ul>
-        <li>1 ETH = 565,000 XMONEY (Min: 0.05 ETH)</li>
+        <li>1 ETH = 565,000 XMONEY (Min: 0.1 ETH)</li>
         <li>1 BNB = 105,000 XMONEY (Min: 0.3 BNB)</li>
         <li>1 USDT = 125 XMONEY (Min: 200 USDT)</li>
         <li>1 USDC = 125 XMONEY (Min: 200 USDC)</li>
-        <li>1 SOL = 27,000 XMONEY (Min: 1 SOL)</li>
+        <li>1 SOL = 27,000 XMONEY (Min: 2 SOL)</li>
       </ul>
       <p class="ts-note">📌 Additional Note: When purchasing with Coinbase Commerce, tokens will be automatically delivered to the Ethereum address linked to your wallet.</p>
     </div>
