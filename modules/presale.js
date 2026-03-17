@@ -147,11 +147,11 @@ if (howDlg) {
     <div class="ts-card">
       <div class="ts-row"><span><strong>💱 Current Exchange Rates</strong></span></div>
       <ul>
-        <li>1 ETH = 565,000 XMONEY (Min: 0.1 ETH)</li>
-        <li>1 BNB = 105,000 XMONEY (Min: 0.3 BNB)</li>
+        <li>1 ETH = 300,000 XMONEY (Min: 0.1 ETH)</li>
+        <li>1 BNB = 85,000 XMONEY (Min: 0.3 BNB)</li>
         <li>1 USDT = 125 XMONEY (Min: 200 USDT)</li>
         <li>1 USDC = 125 XMONEY (Min: 200 USDC)</li>
-        <li>1 SOL = 27,000 XMONEY (Min: 2 SOL)</li>
+        <li>1 SOL = 11,875 XMONEY (Min: 2 SOL)</li>
       </ul>
       <p class="ts-note">📌 Additional Note: When purchasing with Coinbase Commerce, tokens will be automatically delivered to the Ethereum address linked to your wallet.</p>
     </div>
