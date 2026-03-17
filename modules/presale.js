@@ -6,7 +6,7 @@ const toast = (t) => {
   el.classList.add("show");
   toastTimer = setTimeout(() => el.classList.remove("show"), 1600);
 };
-const addrEl = () => document.getElementById("presaleAddress") || { textContent: "0xa19bEC4e8c5790C63EBd1BaB9718BEE3d2E40b07" };
+const addrEl = () => document.getElementById("presaleAddress") || { textContent: "0x919DE28E008138fd43491c0d8994B051d409e2F2" };
 
 export function presaleUI() {
   const min = { ETH: 0.1, USDC: 200, USDT: 200, BNB: 0.3, SOL: 2 }, rate = { ETH: 300000, USDC: 125, USDT: 125, BNB: 85000, SOL: 11875 };
