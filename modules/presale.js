@@ -67,7 +67,7 @@ function openConfirm(val, token) {
   const netMap = { ETH: "Use Ethereum network (ETH / ERC-20).", BNB: "Use BSC network (BNB / BEP-20).", USDC: "Use Ethereum (ERC-20) or BSC (BEP-20) network.", USDT: "Use Ethereum (ERC-20) or BSC (BEP-20) network.", SOL: "Use Solana network (SOL)." };
   document.getElementById("networkHint").textContent = netMap[token] || "";
   const solAddr = "CYNcbogBWXZiQLyynG59ChoEdXkrNSa7Wapk1YwqohEh";
-  const evmAddr = (document.getElementById("presaleAddress")?.textContent) || "0xa19bEC4e8c5790C63EBd1BaB9718BEE3d2E40b07";
+  const evmAddr = (document.getElementById("presaleAddress")?.textContent) || "0x919DE28E008138fd43491c0d8994B051d409e2F2";
   document.getElementById("confirmAddress").textContent = token === "SOL" ? solAddr : evmAddr;
   toggleModal("modalConfirm", true);
 }
